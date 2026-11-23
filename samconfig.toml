@@ -24,7 +24,7 @@ resolve_s3 = true
 watch = true
 
 [default.local_start_api.parameters]
-warm_containers = "EAGER"
+# warm_containers = "EAGER"  # desligado: o padrão do sam init reaproveitava containers mesmo sem --warm-containers
 
 [default.local_start_lambda.parameters]
-warm_containers = "EAGER"
+# warm_containers = "EAGER"  # desligado: o padrão do sam init reaproveitava containers mesmo sem --warm-containers
